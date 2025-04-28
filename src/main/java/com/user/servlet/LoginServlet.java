@@ -1,7 +1,6 @@
 package com.user.servlet;
 
 import java.io.IOException;
-import java.sql.Connection;
 
 import com.DAO.UserDAOimpl;
 import com.DB.DBConnect;
