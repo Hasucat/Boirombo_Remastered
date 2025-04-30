@@ -35,4 +35,16 @@ BEGIN
     WHERE userId = p_user_id AND bookName = p_book_name;
 END 
 
+--3
+CREATE DEFINER=`root`@`localhost` PROCEDURE `sp_top_requested_books`()
+BEGIN
+    SELECT 
+        bookName,
+        COUNT(*) AS request_count
+    FROM request_book
+    GROUP BY bookName
+    ORDER BY request_count DESC
+    LIMIT 3;
+END
+
 
