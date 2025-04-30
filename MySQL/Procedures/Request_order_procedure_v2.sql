@@ -59,3 +59,14 @@ BEGIN
     ORDER BY request_count DESC
     LIMIT 3;
 END
+
+-- 3
+CREATE DEFINER=`root`@`localhost` PROCEDURE `sp_author_request_counts`()
+BEGIN
+    SELECT 
+        authorName AS author,
+        COUNT(*) AS request_count
+    FROM request_book
+    GROUP BY authorName
+    ORDER BY request_count DESC;
+END
