@@ -65,7 +65,7 @@ CREATE TABLE `book_order` (
   `price` varchar(45) DEFAULT NULL,
   `payment` varchar(45) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=102 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=104 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -74,7 +74,7 @@ CREATE TABLE `book_order` (
 
 LOCK TABLES `book_order` WRITE;
 /*!40000 ALTER TABLE `book_order` DISABLE KEYS */;
-INSERT INTO `book_order` VALUES (60,'BOOK-ORD-00650','Alif Hasnain','alifhasnain@gmail.com','iut,iut,dhaka,gazi,1234','1234','Differential Geometry','Clyde F.Martin','400.0','COD'),(61,'BOOK-ORD-00968','Alif Hasnain','alifhasnain@gmail.com','iut,iut,dhaka,gazi,1234','1234','Thinking In JAVA','Bruce Eckel','230.0','COD'),(62,'BOOK-ORD-00813','Afsana Shehrin ','afsanashehrin@gmail.com','awq,rtere,fdfd,dsdf,21132','1234','Engineering For Kids ','John Oliver','200.0','Card'),(63,'BOOK-ORD-00551','Afsana Shehrin ','afsanashehrin@gmail.com','awq,rtere,fdfd,dsdf,21132','1234','It Ends With Us','Colleen Hoover','300.0','Card'),(64,'BOOK-ORD-00525','Afsana Shehrin ','afsanashehrin@gmail.com','IUT,Boardbazar,Dhaka,Gazipur,3839','1234','Engineering For Kids ','John Oliver','200.0','COD'),(65,'BOOK-ORD-00398','Afsana Shehrin ','afsanashehrin@gmail.com','IUT,Boardbazar,Dhaka,Gazipur,3839','1234','It Ends With Us','Colleen Hoover','300.0','COD'),(66,'BOOK-ORD-00992','Afsana Shehrin ','afsanashehrin@gmail.com','IUT,Boardbazar,Dhaka,Gazipur,3839','1234','Engineering For Kids ','John Oliver','200.0','COD'),(67,'BOOK-ORD-00592','Afsana Shehrin ','afsanashehrin@gmail.com','IUT,Boardbazar,Dhaka,Gazipur,3839','1234','Thinking In JAVA','Bruce Eckel','230.0','COD'),(68,'BOOK-ORD-00844','Afsana Shehrin ','afsanashehrin@gmail.com','ggfdsds,sadsadas232,asdasdas,ssfds,323','1234','Engineering For Kids ','John Oliver','200.0','COD'),(69,'BOOK-ORD-0099','Afsana Shehrin ','afsanashehrin@gmail.com','ggfdsds,sadsadas232,asdasdas,ssfds,323','1234','It Ends With Us','Colleen Hoover','300.0','COD'),(70,'BOOK-ORD-00906','Afsana Shehrin ','afsanashehrin@gmail.com','ggfdsds,sadsadas232,asdasdas,ssfds,323','1234','Engineering For Kids ','John Oliver','200.0','COD'),(71,'BOOK-ORD-00509','Afsana Shehrin ','afsanashehrin@gmail.com','ggfdsds,sadsadas232,asdasdas,ssfds,323','1234','Thinking In JAVA','Bruce Eckel','230.0','COD'),(72,'BOOK-ORD-00870','Afsana Shehrin ','afsanashehrin@gmail.com','ggfdsds,sadsadas232,asdasdas,ssfds,323','1234','Engineering For Kids ','John Oliver','200.0','COD'),(73,'BOOK-ORD-00765','Afsana Shehrin ','afsanashehrin@gmail.com','ggfdsds,sadsadas232,asdasdas,ssfds,323','1234','Differential Geometry','Clyde F.Martin','400.0','COD'),(78,'BOOK-ORD-00387','Icosane','icosane@gmail.com','iut,Gazi,dhaka,Gazi,1234','210041239','Engineering For Kids ','John Oliver','200.0','Loan'),(79,'BOOK-ORD-00746','Icosane','icosane@gmail.com','iut,Gazi,dhaka,Gazi,1234','210041239','Take Your Turn Teddy','Haley Newlin','220.0','Loan'),(80,'BOOK-ORD-00713','Arfa','arfa@gmail.com','iut,ctg,ctg,ctg,1234','84557843','Goosebumps','R.L.Stine','150.0','Card'),(81,'BOOK-ORD-00737','Arfa','arfa@gmail.com','iut,ctg,ctg,ctg,1234','84557843','Sea Prayer','Khaled Hosseini','140.0','Card'),(82,'BOOK-ORD-00376','Arfa','arfa@gmail.com','iut,ctg,ctg,ctg,1234','84557843','Take Your Turn Teddy','Haley Newlin','220.0','Card'),(83,'BOOK-ORD-00559','Arfa','arfa@gmail.com','iut,ctg,ctg,ctg,1234','84557843','It Ends With Us','Colleen Hoover','300.0','Card'),(84,'BOOK-ORD-00741','Arfa','arfa@gmail.com','iut,ctg,ctg,ctg,1234','84557843','Thinking In JAVA','Bruce Eckel','230.0','Card'),(85,'BOOK-ORD-00112','Sanjana Afrin','Sudu@gmail.com','iut,Baily,dhaka,Baily,1234','1398',' JAVA Programming Notes','Tom Hardy','350.0','Loan'),(86,'BOOK-ORD-00154','Sanjana Afrin','Sudu@gmail.com','iut,Baily,dhaka,Baily,1234','1398','Thinking In JAVA','Bruce Eckel','230.0','Loan'),(87,'BOOK-ORD-00487','Sanjana Afrin','Sudu@gmail.com','iut,Baily,dhaka,Baily,1234','1398','It Ends With Us','Colleen Hoover','300.0','Loan'),(88,'BOOK-ORD-00314','Sanjana Afrin','Sudu@gmail.com','iut,Baily,dhaka,Baily,1234','1398','Fantastic Beasts','J.K Rowling','180.0','Loan'),(89,'BOOK-ORD-00475','Sanjana Afrin','Sudu@gmail.com','iut,Baily,dhaka,Baily,1234','1398','Harry Potter and The Deathly Hallows','J.K Rowling','250.0','Loan'),(90,'BOOK-ORD-00629','Sanjana Afrin','Sudu@gmail.com','iut,Baily,dhaka,Baily,1234','1398','Never Never','Colleen Hoover','360.0','Loan'),(91,'BOOK-ORD-00779','Sanjana Afrin','Sudu@gmail.com','iut,Baily,dhaka,Baily,1234','1398','Verity','Colleen Hoover','180.0','Loan'),(92,'BOOK-ORD-00159','Icosane','icosane@gmail.com','a,Gazi,dhaka,Gazi,1234','210041239','Engineering For Kids ','John Oliver','200.0','COD'),(93,'BOOK-ORD-00928','Icosane','icosane@gmail.com','a,Gazi,dhaka,Gazi,1234','210041239','Take Your Turn Teddy','Haley Newlin','220.0','COD'),(94,'BOOK-ORD-00107','Icosane','icosane@gmail.com','a,Gazi,dhaka,Gazi,1234','210041239','Heart Bones','Colleen Hoover','270.0','COD'),(95,'BOOK-ORD-00655','asaads','kjkj@gmail.com','sads,gfghf,vbvbv,jhjh,43234','12312','Heart Bones','Colleen Hoover','270.0','COD'),(96,'BOOK-ORD-0039','asaads','kjkj@gmail.com','sads,gfghf,vbvbv,jhjh,43234','12312','Never Never','Colleen Hoover','360.0','COD'),(97,'BOOK-ORD-00403','asaads','kjkj@gmail.com','sads,gfghf,vbvbv,jhjh,43234','12312','Harry Potter and The Deathly Hallows','J.K Rowling','250.0','COD'),(98,'TEST-001','Test User','test@example.com',NULL,NULL,'Sample Book','Test Author','19.99',NULL),(99,'BOOK-ORD-00537','asaads','kjkj@gmail.com','sdadsd,gfgf,cxcxcz,jkhkhh,2312','12312',' JAVA Programming Notes','Tom Hardy','350.0','Loan'),(100,'BOOK-ORD-00436','asaads','kjkj@gmail.com','sdadsd,gfgf,cxcxcz,jkhkhh,2312','12312','It Ends With Us','Colleen Hoover','300.0','Loan'),(101,'BOOK-ORD-00672','asaads','kjkj@gmail.com','sdadsd,gfgf,cxcxcz,jkhkhh,2312','12312','Sea Prayer','Khaled Hosseini','140.0','Loan');
+INSERT INTO `book_order` VALUES (60,'BOOK-ORD-00650','Alif Hasnain','alifhasnain@gmail.com','iut,iut,dhaka,gazi,1234','1234','Differential Geometry','Clyde F.Martin','400.0','COD'),(61,'BOOK-ORD-00968','Alif Hasnain','alifhasnain@gmail.com','iut,iut,dhaka,gazi,1234','1234','Thinking In JAVA','Bruce Eckel','230.0','COD'),(62,'BOOK-ORD-00813','Afsana Shehrin ','afsanashehrin@gmail.com','awq,rtere,fdfd,dsdf,21132','1234','Engineering For Kids ','John Oliver','200.0','Card'),(63,'BOOK-ORD-00551','Afsana Shehrin ','afsanashehrin@gmail.com','awq,rtere,fdfd,dsdf,21132','1234','It Ends With Us','Colleen Hoover','300.0','Card'),(64,'BOOK-ORD-00525','Afsana Shehrin ','afsanashehrin@gmail.com','IUT,Boardbazar,Dhaka,Gazipur,3839','1234','Engineering For Kids ','John Oliver','200.0','COD'),(65,'BOOK-ORD-00398','Afsana Shehrin ','afsanashehrin@gmail.com','IUT,Boardbazar,Dhaka,Gazipur,3839','1234','It Ends With Us','Colleen Hoover','300.0','COD'),(66,'BOOK-ORD-00992','Afsana Shehrin ','afsanashehrin@gmail.com','IUT,Boardbazar,Dhaka,Gazipur,3839','1234','Engineering For Kids ','John Oliver','200.0','COD'),(67,'BOOK-ORD-00592','Afsana Shehrin ','afsanashehrin@gmail.com','IUT,Boardbazar,Dhaka,Gazipur,3839','1234','Thinking In JAVA','Bruce Eckel','230.0','COD'),(68,'BOOK-ORD-00844','Afsana Shehrin ','afsanashehrin@gmail.com','ggfdsds,sadsadas232,asdasdas,ssfds,323','1234','Engineering For Kids ','John Oliver','200.0','COD'),(69,'BOOK-ORD-0099','Afsana Shehrin ','afsanashehrin@gmail.com','ggfdsds,sadsadas232,asdasdas,ssfds,323','1234','It Ends With Us','Colleen Hoover','300.0','COD'),(70,'BOOK-ORD-00906','Afsana Shehrin ','afsanashehrin@gmail.com','ggfdsds,sadsadas232,asdasdas,ssfds,323','1234','Engineering For Kids ','John Oliver','200.0','COD'),(71,'BOOK-ORD-00509','Afsana Shehrin ','afsanashehrin@gmail.com','ggfdsds,sadsadas232,asdasdas,ssfds,323','1234','Thinking In JAVA','Bruce Eckel','230.0','COD'),(72,'BOOK-ORD-00870','Afsana Shehrin ','afsanashehrin@gmail.com','ggfdsds,sadsadas232,asdasdas,ssfds,323','1234','Engineering For Kids ','John Oliver','200.0','COD'),(73,'BOOK-ORD-00765','Afsana Shehrin ','afsanashehrin@gmail.com','ggfdsds,sadsadas232,asdasdas,ssfds,323','1234','Differential Geometry','Clyde F.Martin','400.0','COD'),(78,'BOOK-ORD-00387','Icosane','icosane@gmail.com','iut,Gazi,dhaka,Gazi,1234','210041239','Engineering For Kids ','John Oliver','200.0','Loan'),(79,'BOOK-ORD-00746','Icosane','icosane@gmail.com','iut,Gazi,dhaka,Gazi,1234','210041239','Take Your Turn Teddy','Haley Newlin','220.0','Loan'),(80,'BOOK-ORD-00713','Arfa','arfa@gmail.com','iut,ctg,ctg,ctg,1234','84557843','Goosebumps','R.L.Stine','150.0','Card'),(81,'BOOK-ORD-00737','Arfa','arfa@gmail.com','iut,ctg,ctg,ctg,1234','84557843','Sea Prayer','Khaled Hosseini','140.0','Card'),(82,'BOOK-ORD-00376','Arfa','arfa@gmail.com','iut,ctg,ctg,ctg,1234','84557843','Take Your Turn Teddy','Haley Newlin','220.0','Card'),(83,'BOOK-ORD-00559','Arfa','arfa@gmail.com','iut,ctg,ctg,ctg,1234','84557843','It Ends With Us','Colleen Hoover','300.0','Card'),(84,'BOOK-ORD-00741','Arfa','arfa@gmail.com','iut,ctg,ctg,ctg,1234','84557843','Thinking In JAVA','Bruce Eckel','230.0','Card'),(85,'BOOK-ORD-00112','Sanjana Afrin','Sudu@gmail.com','iut,Baily,dhaka,Baily,1234','1398',' JAVA Programming Notes','Tom Hardy','350.0','Loan'),(86,'BOOK-ORD-00154','Sanjana Afrin','Sudu@gmail.com','iut,Baily,dhaka,Baily,1234','1398','Thinking In JAVA','Bruce Eckel','230.0','Loan'),(87,'BOOK-ORD-00487','Sanjana Afrin','Sudu@gmail.com','iut,Baily,dhaka,Baily,1234','1398','It Ends With Us','Colleen Hoover','300.0','Loan'),(88,'BOOK-ORD-00314','Sanjana Afrin','Sudu@gmail.com','iut,Baily,dhaka,Baily,1234','1398','Fantastic Beasts','J.K Rowling','180.0','Loan'),(89,'BOOK-ORD-00475','Sanjana Afrin','Sudu@gmail.com','iut,Baily,dhaka,Baily,1234','1398','Harry Potter and The Deathly Hallows','J.K Rowling','250.0','Loan'),(90,'BOOK-ORD-00629','Sanjana Afrin','Sudu@gmail.com','iut,Baily,dhaka,Baily,1234','1398','Never Never','Colleen Hoover','360.0','Loan'),(91,'BOOK-ORD-00779','Sanjana Afrin','Sudu@gmail.com','iut,Baily,dhaka,Baily,1234','1398','Verity','Colleen Hoover','180.0','Loan'),(92,'BOOK-ORD-00159','Icosane','icosane@gmail.com','a,Gazi,dhaka,Gazi,1234','210041239','Engineering For Kids ','John Oliver','200.0','COD'),(93,'BOOK-ORD-00928','Icosane','icosane@gmail.com','a,Gazi,dhaka,Gazi,1234','210041239','Take Your Turn Teddy','Haley Newlin','220.0','COD'),(94,'BOOK-ORD-00107','Icosane','icosane@gmail.com','a,Gazi,dhaka,Gazi,1234','210041239','Heart Bones','Colleen Hoover','270.0','COD'),(95,'BOOK-ORD-00655','asaads','kjkj@gmail.com','sads,gfghf,vbvbv,jhjh,43234','12312','Heart Bones','Colleen Hoover','270.0','COD'),(96,'BOOK-ORD-0039','asaads','kjkj@gmail.com','sads,gfghf,vbvbv,jhjh,43234','12312','Never Never','Colleen Hoover','360.0','COD'),(97,'BOOK-ORD-00403','asaads','kjkj@gmail.com','sads,gfghf,vbvbv,jhjh,43234','12312','Harry Potter and The Deathly Hallows','J.K Rowling','250.0','COD'),(98,'TEST-001','Test User','test@example.com',NULL,NULL,'Sample Book','Test Author','19.99',NULL),(99,'BOOK-ORD-00537','asaads','kjkj@gmail.com','sdadsd,gfgf,cxcxcz,jkhkhh,2312','12312',' JAVA Programming Notes','Tom Hardy','350.0','Loan'),(100,'BOOK-ORD-00436','asaads','kjkj@gmail.com','sdadsd,gfgf,cxcxcz,jkhkhh,2312','12312','It Ends With Us','Colleen Hoover','300.0','Loan'),(101,'BOOK-ORD-00672','asaads','kjkj@gmail.com','sdadsd,gfgf,cxcxcz,jkhkhh,2312','12312','Sea Prayer','Khaled Hosseini','140.0','Loan'),(102,'BOOK-ORD-00571','Afsana Shehrin ','afsanashehrin@gmail.com','dsda,sdadsasa,sasdad,sdadsas,32332','1234','Never Never','Colleen Hoover','360.0','COD'),(103,'BOOK-ORD-00353','Afsana Shehrin ','afsanashehrin@gmail.com','dsda,sdadsasa,sasdad,sdadsas,32332','1234','Verity','Colleen Hoover','180.0','COD');
 /*!40000 ALTER TABLE `book_order` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!50003 SET @saved_cs_client      = @@character_set_client */ ;
@@ -112,7 +112,7 @@ CREATE TABLE `cart` (
   `price` double DEFAULT NULL,
   `total_price` double DEFAULT NULL,
   PRIMARY KEY (`cid`)
-) ENGINE=InnoDB AUTO_INCREMENT=236 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=239 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -121,7 +121,7 @@ CREATE TABLE `cart` (
 
 LOCK TABLES `cart` WRITE;
 /*!40000 ALTER TABLE `cart` DISABLE KEYS */;
-INSERT INTO `cart` VALUES (181,16,2,'Differential Geometry','Clyde F.Martin',400,400),(182,15,2,'Thinking In JAVA','Bruce Eckel',230,230),(203,33,1,'It Starts With Us','Colleen Hoover',290,290),(204,34,1,'Heart Bones','Colleen Hoover',270,270),(205,32,1,'Never Never','Colleen Hoover',360,360),(206,15,1,'Thinking In JAVA','Bruce Eckel',230,230),(207,13,1,'It Ends With Us','Colleen Hoover',300,300),(208,22,2,'Ickabog','J.K Rowling',200,200),(209,31,2,'Verity','Colleen Hoover',180,180),(210,24,2,'Fantastic Beasts','J.K Rowling',180,180),(211,17,16,'Engineering For Kids ','John Oliver',200,200),(212,11,16,'Take Your Turn Teddy','Haley Newlin',220,220),(213,32,19,'Never Never','Colleen Hoover',360,360),(214,22,19,'Ickabog','J.K Rowling',200,200),(215,24,19,'Fantastic Beasts','J.K Rowling',180,180),(216,7,18,'Goosebumps','R.L.Stine',150,150),(217,10,18,'Sea Prayer','Khaled Hosseini',140,140),(218,11,18,'Take Your Turn Teddy','Haley Newlin',220,220),(219,13,18,'It Ends With Us','Colleen Hoover',300,300),(220,15,18,'Thinking In JAVA','Bruce Eckel',230,230),(221,14,17,' JAVA Programming Notes','Tom Hardy',350,350),(222,15,17,'Thinking In JAVA','Bruce Eckel',230,230),(223,13,17,'It Ends With Us','Colleen Hoover',300,300),(224,24,17,'Fantastic Beasts','J.K Rowling',180,180),(225,23,17,'Harry Potter and The Deathly Hallows','J.K Rowling',250,250),(226,32,17,'Never Never','Colleen Hoover',360,360),(227,31,17,'Verity','Colleen Hoover',180,180),(228,34,16,'Heart Bones','Colleen Hoover',270,270),(232,1,1,'Future Galactical Doctine','Arden Espeland',300,300),(233,14,33,' JAVA Programming Notes','Tom Hardy',350,350),(234,13,33,'It Ends With Us','Colleen Hoover',300,300),(235,10,33,'Sea Prayer','Khaled Hosseini',140,140);
+INSERT INTO `cart` VALUES (181,16,2,'Differential Geometry','Clyde F.Martin',400,400),(182,15,2,'Thinking In JAVA','Bruce Eckel',230,230),(208,22,2,'Ickabog','J.K Rowling',200,200),(209,31,2,'Verity','Colleen Hoover',180,180),(210,24,2,'Fantastic Beasts','J.K Rowling',180,180),(211,17,16,'Engineering For Kids ','John Oliver',200,200),(212,11,16,'Take Your Turn Teddy','Haley Newlin',220,220),(213,32,19,'Never Never','Colleen Hoover',360,360),(214,22,19,'Ickabog','J.K Rowling',200,200),(215,24,19,'Fantastic Beasts','J.K Rowling',180,180),(216,7,18,'Goosebumps','R.L.Stine',150,150),(217,10,18,'Sea Prayer','Khaled Hosseini',140,140),(218,11,18,'Take Your Turn Teddy','Haley Newlin',220,220),(219,13,18,'It Ends With Us','Colleen Hoover',300,300),(220,15,18,'Thinking In JAVA','Bruce Eckel',230,230),(221,14,17,' JAVA Programming Notes','Tom Hardy',350,350),(222,15,17,'Thinking In JAVA','Bruce Eckel',230,230),(223,13,17,'It Ends With Us','Colleen Hoover',300,300),(224,24,17,'Fantastic Beasts','J.K Rowling',180,180),(225,23,17,'Harry Potter and The Deathly Hallows','J.K Rowling',250,250),(226,32,17,'Never Never','Colleen Hoover',360,360),(227,31,17,'Verity','Colleen Hoover',180,180),(228,34,16,'Heart Bones','Colleen Hoover',270,270),(233,14,33,' JAVA Programming Notes','Tom Hardy',350,350),(234,13,33,'It Ends With Us','Colleen Hoover',300,300),(235,10,33,'Sea Prayer','Khaled Hosseini',140,140),(237,32,1,'Never Never','Colleen Hoover',360,360),(238,31,1,'Verity','Colleen Hoover',180,180);
 /*!40000 ALTER TABLE `cart` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!50003 SET @saved_cs_client      = @@character_set_client */ ;
@@ -167,7 +167,7 @@ CREATE TABLE `order_log` (
   `log_date` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
   `action` varchar(20) DEFAULT NULL,
   PRIMARY KEY (`log_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -176,7 +176,7 @@ CREATE TABLE `order_log` (
 
 LOCK TABLES `order_log` WRITE;
 /*!40000 ALTER TABLE `order_log` DISABLE KEYS */;
-INSERT INTO `order_log` VALUES (1,'TEST-001','Sample Book','test@example.com','2025-04-30 05:51:48','ORDER PLACED'),(2,'BOOK-ORD-00537',' JAVA Programming Notes','kjkj@gmail.com','2025-04-30 05:54:09','ORDER PLACED'),(3,'BOOK-ORD-00436','It Ends With Us','kjkj@gmail.com','2025-04-30 05:54:09','ORDER PLACED'),(4,'BOOK-ORD-00672','Sea Prayer','kjkj@gmail.com','2025-04-30 05:54:09','ORDER PLACED');
+INSERT INTO `order_log` VALUES (1,'TEST-001','Sample Book','test@example.com','2025-04-30 05:51:48','ORDER PLACED'),(2,'BOOK-ORD-00537',' JAVA Programming Notes','kjkj@gmail.com','2025-04-30 05:54:09','ORDER PLACED'),(3,'BOOK-ORD-00436','It Ends With Us','kjkj@gmail.com','2025-04-30 05:54:09','ORDER PLACED'),(4,'BOOK-ORD-00672','Sea Prayer','kjkj@gmail.com','2025-04-30 05:54:09','ORDER PLACED'),(5,'BOOK-ORD-00571','Never Never','afsanashehrin@gmail.com','2025-04-30 06:27:06','ORDER PLACED'),(6,'BOOK-ORD-00353','Verity','afsanashehrin@gmail.com','2025-04-30 06:27:06','ORDER PLACED');
 /*!40000 ALTER TABLE `order_log` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -198,7 +198,7 @@ CREATE TABLE `request_book` (
   `status` varchar(45) DEFAULT 'Pending',
   PRIMARY KEY (`requestId`),
   UNIQUE KEY `requestId_UNIQUE` (`requestId`)
-) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=18 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -207,9 +207,36 @@ CREATE TABLE `request_book` (
 
 LOCK TABLES `request_book` WRITE;
 /*!40000 ALTER TABLE `request_book` DISABLE KEYS */;
-INSERT INTO `request_book` VALUES (1,1,'Thousand Splendid Sun','Khaled Hosseini','Real Life ,Taraban Story','book60.jpg','2025-04-27 18:00:00.000000','active'),(2,1,'Verity','Colleen Hoover','Suspense','book61.jpg','2025-04-27 18:00:00.000000','active'),(3,5,'Kite Runner','Khaled Hosseini','Historic Fiction','book62.jpg','2025-04-27 18:00:00.000000','active'),(4,5,'It Starts with Us','Colleen Hoover','Suspense','book63.jpg','2025-04-27 18:00:00.000000','active'),(5,8,'Verity','Colleen Hoover','Suspense','book64.jpg','2025-04-27 18:00:00.000000','active'),(6,1,'Kite Runner','Khaled Hosseini','Historic Fiction','book65.jpg','2025-04-27 18:00:00.000000','active'),(7,1,'And The Mountains Echoed','Khaled Hosseini','Real Life ,Taraban Story','book66.jpg','2025-04-28 18:00:00.000000','active'),(8,6,'Kite Runner','Khaled Hosseini','Historic Fiction','book67.jpg','2025-04-28 18:00:00.000000','active'),(9,3,'Verity','Colleen Hoover','Suspense','book68.jpg','2025-04-29 18:00:00.000000','active'),(10,3,'The Shining','Stephen King','Horror','book69.jpg','2025-04-29 18:00:00.000000','active');
+INSERT INTO `request_book` VALUES (1,1,'Thousand Splendid Sun','Khaled Hosseini','Real Life ,Taraban Story','book60.jpg','2025-04-27 18:00:00.000000','Approved'),(2,1,'Verity','Colleen Hoover','Suspense','book61.jpg','2025-04-27 18:00:00.000000','Pending'),(3,5,'Kite Runner','Khaled Hosseini','Historic Fiction','book62.jpg','2025-04-27 18:00:00.000000','Approved'),(4,5,'It Starts with Us','Colleen Hoover','Suspense','book63.jpg','2025-04-27 18:00:00.000000','Approved'),(5,8,'Verity','Colleen Hoover','Suspense','book64.jpg','2025-04-27 18:00:00.000000','Approved'),(6,1,'Kite Runner','Khaled Hosseini','Historic Fiction','book65.jpg','2025-04-27 18:00:00.000000','Approved'),(7,1,'And The Mountains Echoed','Khaled Hosseini','Real Life ,Taraban Story','book66.jpg','2025-04-28 18:00:00.000000','Pending'),(8,6,'Kite Runner','Khaled Hosseini','Historic Fiction','book67.jpg','2025-04-28 18:00:00.000000','Pending'),(9,3,'Verity','Colleen Hoover','Suspense','book68.jpg','2025-04-29 18:00:00.000000','Pending'),(10,3,'The Shining','Stephen King','Horror','book69.jpg','2025-04-29 18:00:00.000000','Pending'),(11,5,'Uzumaki','Junji Ito','Horror','book70.jpg','2025-04-29 18:00:00.000000','Fulfilled'),(12,1,'Tomie','Junji Ito','Horror','book71.jpg','2025-04-29 18:00:00.000000','Fulfilled'),(13,1,'Dork Diaries','RRR','Children','book72.jpg','2025-04-29 18:00:00.000000','Rejected'),(14,2,'Dork Diaries','RRR','Children','book73.jpg','2025-04-29 18:00:00.000000','Rejected'),(15,3,'Uzumaki','Junji Ito','Horror','book74.jpg','2025-04-29 18:00:00.000000','Pending'),(16,2,'Uzumaki','Junji Ito','Horror','book75.jpg','2025-04-29 18:00:00.000000','Pending'),(17,2,'Mr.Stink','David Williams','Children','book76.jpg','2025-04-29 18:00:00.000000','Fulfilled');
 /*!40000 ALTER TABLE `request_book` ENABLE KEYS */;
 UNLOCK TABLES;
+/*!50003 SET @saved_cs_client      = @@character_set_client */ ;
+/*!50003 SET @saved_cs_results     = @@character_set_results */ ;
+/*!50003 SET @saved_col_connection = @@collation_connection */ ;
+/*!50003 SET character_set_client  = utf8mb4 */ ;
+/*!50003 SET character_set_results = utf8mb4 */ ;
+/*!50003 SET collation_connection  = utf8mb4_0900_ai_ci */ ;
+/*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
+/*!50003 SET sql_mode              = 'ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION' */ ;
+DELIMITER ;;
+/*!50003 CREATE*/ /*!50017 DEFINER=`root`@`localhost`*/ /*!50003 TRIGGER `trg_validate_request_user` BEFORE INSERT ON `request_book` FOR EACH ROW BEGIN
+    DECLARE user_exists INT;
+    
+    -- Check if user exists
+    SELECT COUNT(*) INTO user_exists
+    FROM user
+    WHERE id = NEW.userId;
+    
+    IF user_exists = 0 THEN
+        SIGNAL SQLSTATE '45000'
+        SET MESSAGE_TEXT = 'Invalid user ID - user does not exist';
+    END IF;
+END */;;
+DELIMITER ;
+/*!50003 SET sql_mode              = @saved_sql_mode */ ;
+/*!50003 SET character_set_client  = @saved_cs_client */ ;
+/*!50003 SET character_set_results = @saved_cs_results */ ;
+/*!50003 SET collation_connection  = @saved_col_connection */ ;
 
 --
 -- Table structure for table `user`
@@ -1069,6 +1096,203 @@ DELIMITER ;
 /*!50003 SET character_set_client  = @saved_cs_client */ ;
 /*!50003 SET character_set_results = @saved_cs_results */ ;
 /*!50003 SET collation_connection  = @saved_col_connection */ ;
+/*!50003 DROP PROCEDURE IF EXISTS `sp_author_request_counts` */;
+/*!50003 SET @saved_cs_client      = @@character_set_client */ ;
+/*!50003 SET @saved_cs_results     = @@character_set_results */ ;
+/*!50003 SET @saved_col_connection = @@collation_connection */ ;
+/*!50003 SET character_set_client  = utf8mb4 */ ;
+/*!50003 SET character_set_results = utf8mb4 */ ;
+/*!50003 SET collation_connection  = utf8mb4_0900_ai_ci */ ;
+/*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
+/*!50003 SET sql_mode              = 'ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION' */ ;
+DELIMITER ;;
+CREATE DEFINER=`root`@`localhost` PROCEDURE `sp_author_request_counts`()
+BEGIN
+    SELECT 
+        authorName AS author,
+        COUNT(*) AS request_count
+    FROM request_book
+    GROUP BY authorName
+    ORDER BY request_count DESC;
+END ;;
+DELIMITER ;
+/*!50003 SET sql_mode              = @saved_sql_mode */ ;
+/*!50003 SET character_set_client  = @saved_cs_client */ ;
+/*!50003 SET character_set_results = @saved_cs_results */ ;
+/*!50003 SET collation_connection  = @saved_col_connection */ ;
+/*!50003 DROP PROCEDURE IF EXISTS `sp_get_pending_requests` */;
+/*!50003 SET @saved_cs_client      = @@character_set_client */ ;
+/*!50003 SET @saved_cs_results     = @@character_set_results */ ;
+/*!50003 SET @saved_col_connection = @@collation_connection */ ;
+/*!50003 SET character_set_client  = utf8mb4 */ ;
+/*!50003 SET character_set_results = utf8mb4 */ ;
+/*!50003 SET collation_connection  = utf8mb4_0900_ai_ci */ ;
+/*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
+/*!50003 SET sql_mode              = 'ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION' */ ;
+DELIMITER ;;
+CREATE DEFINER=`root`@`localhost` PROCEDURE `sp_get_pending_requests`(
+    IN p_limit INT,
+    IN p_offset INT)
+BEGIN
+    SELECT 
+        r.requestId,
+        r.bookName,
+        r.authorName,
+        r.description,
+        r.requestDate,
+        u.name AS requestedBy,
+        u.email
+    FROM request_book r
+    JOIN user u ON r.userId = u.id
+    WHERE r.status = 'Pending'
+    ORDER BY r.requestDate ASC
+    LIMIT p_limit OFFSET p_offset;
+END ;;
+DELIMITER ;
+/*!50003 SET sql_mode              = @saved_sql_mode */ ;
+/*!50003 SET character_set_client  = @saved_cs_client */ ;
+/*!50003 SET character_set_results = @saved_cs_results */ ;
+/*!50003 SET collation_connection  = @saved_col_connection */ ;
+/*!50003 DROP PROCEDURE IF EXISTS `sp_get_request_stats` */;
+/*!50003 SET @saved_cs_client      = @@character_set_client */ ;
+/*!50003 SET @saved_cs_results     = @@character_set_results */ ;
+/*!50003 SET @saved_col_connection = @@collation_connection */ ;
+/*!50003 SET character_set_client  = utf8mb4 */ ;
+/*!50003 SET character_set_results = utf8mb4 */ ;
+/*!50003 SET collation_connection  = utf8mb4_0900_ai_ci */ ;
+/*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
+/*!50003 SET sql_mode              = 'ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION' */ ;
+DELIMITER ;;
+CREATE DEFINER=`root`@`localhost` PROCEDURE `sp_get_request_stats`()
+BEGIN
+    SELECT 
+        status,
+        COUNT(*) AS count,
+        ROUND(COUNT(*) * 100.0 / (SELECT COUNT(*) FROM request_book), 2) AS percentage
+    FROM request_book
+    GROUP BY status;
+    
+    SELECT 
+        DATE_FORMAT(requestDate, '%Y-%m') AS month,
+        COUNT(*) AS request_count
+    FROM request_book
+    GROUP BY DATE_FORMAT(requestDate, '%Y-%m')
+    ORDER BY month DESC
+    LIMIT 2;
+    
+    SELECT 
+        u.name,
+        u.email,
+        COUNT(*) AS request_count
+    FROM request_book r
+    JOIN user u ON r.userId = u.id
+    GROUP BY u.name, u.email
+    ORDER BY request_count DESC
+    LIMIT 3;
+END ;;
+DELIMITER ;
+/*!50003 SET sql_mode              = @saved_sql_mode */ ;
+/*!50003 SET character_set_client  = @saved_cs_client */ ;
+/*!50003 SET character_set_results = @saved_cs_results */ ;
+/*!50003 SET collation_connection  = @saved_col_connection */ ;
+/*!50003 DROP PROCEDURE IF EXISTS `sp_get_request_status` */;
+/*!50003 SET @saved_cs_client      = @@character_set_client */ ;
+/*!50003 SET @saved_cs_results     = @@character_set_results */ ;
+/*!50003 SET @saved_col_connection = @@collation_connection */ ;
+/*!50003 SET character_set_client  = utf8mb4 */ ;
+/*!50003 SET character_set_results = utf8mb4 */ ;
+/*!50003 SET collation_connection  = utf8mb4_0900_ai_ci */ ;
+/*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
+/*!50003 SET sql_mode              = 'ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION' */ ;
+DELIMITER ;;
+CREATE DEFINER=`root`@`localhost` PROCEDURE `sp_get_request_status`(
+    IN p_user_id INT,
+    IN p_book_name VARCHAR(255)
+)
+BEGIN
+    SELECT 
+        requestId,
+        bookName,
+        status,
+        requestDate
+    FROM request_book
+    WHERE userId = p_user_id AND bookName = p_book_name;
+END ;;
+DELIMITER ;
+/*!50003 SET sql_mode              = @saved_sql_mode */ ;
+/*!50003 SET character_set_client  = @saved_cs_client */ ;
+/*!50003 SET character_set_results = @saved_cs_results */ ;
+/*!50003 SET collation_connection  = @saved_col_connection */ ;
+/*!50003 DROP PROCEDURE IF EXISTS `sp_get_user_requests` */;
+/*!50003 SET @saved_cs_client      = @@character_set_client */ ;
+/*!50003 SET @saved_cs_results     = @@character_set_results */ ;
+/*!50003 SET @saved_col_connection = @@collation_connection */ ;
+/*!50003 SET character_set_client  = utf8mb4 */ ;
+/*!50003 SET character_set_results = utf8mb4 */ ;
+/*!50003 SET collation_connection  = utf8mb4_0900_ai_ci */ ;
+/*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
+/*!50003 SET sql_mode              = 'ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION' */ ;
+DELIMITER ;;
+CREATE DEFINER=`root`@`localhost` PROCEDURE `sp_get_user_requests`(
+    IN p_user_id INT,
+    IN p_include_pending BOOLEAN,
+    IN p_include_approved BOOLEAN,
+    IN p_include_rejected BOOLEAN,
+    IN p_include_fulfilled BOOLEAN
+)
+BEGIN
+    SELECT 
+        r.requestId,
+        r.bookName,
+        r.authorName,
+        r.description,
+        r.requestDate,
+        r.status,
+        CASE 
+            WHEN r.status = 'Fulfilled' THEN 
+                (SELECT bookId FROM book_dbs WHERE bookname = r.bookName AND author = r.authorName LIMIT 1)
+            ELSE NULL
+        END AS fulfilledBookId
+    FROM request_book r
+    WHERE r.userId = p_user_id
+    AND (
+        (p_include_pending = TRUE AND r.status = 'Pending')
+        OR (p_include_approved = TRUE AND r.status = 'Active')
+        OR (p_include_rejected = TRUE AND r.status = 'Rejected')
+        OR (p_include_fulfilled = TRUE AND r.status = 'Fulfilled')
+    )
+    ORDER BY r.requestDate DESC;
+END ;;
+DELIMITER ;
+/*!50003 SET sql_mode              = @saved_sql_mode */ ;
+/*!50003 SET character_set_client  = @saved_cs_client */ ;
+/*!50003 SET character_set_results = @saved_cs_results */ ;
+/*!50003 SET collation_connection  = @saved_col_connection */ ;
+/*!50003 DROP PROCEDURE IF EXISTS `sp_top_requested_books` */;
+/*!50003 SET @saved_cs_client      = @@character_set_client */ ;
+/*!50003 SET @saved_cs_results     = @@character_set_results */ ;
+/*!50003 SET @saved_col_connection = @@collation_connection */ ;
+/*!50003 SET character_set_client  = utf8mb4 */ ;
+/*!50003 SET character_set_results = utf8mb4 */ ;
+/*!50003 SET collation_connection  = utf8mb4_0900_ai_ci */ ;
+/*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
+/*!50003 SET sql_mode              = 'ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION' */ ;
+DELIMITER ;;
+CREATE DEFINER=`root`@`localhost` PROCEDURE `sp_top_requested_books`()
+BEGIN
+    SELECT 
+        bookName,
+        COUNT(*) AS request_count
+    FROM request_book
+    GROUP BY bookName
+    ORDER BY request_count DESC
+    LIMIT 3;
+END ;;
+DELIMITER ;
+/*!50003 SET sql_mode              = @saved_sql_mode */ ;
+/*!50003 SET character_set_client  = @saved_cs_client */ ;
+/*!50003 SET character_set_results = @saved_cs_results */ ;
+/*!50003 SET collation_connection  = @saved_col_connection */ ;
 
 --
 -- Final view structure for view `vw_author_popularity`
@@ -1205,4 +1429,4 @@ DELIMITER ;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2025-04-30 12:03:08
+-- Dump completed on 2025-04-30 13:24:58
